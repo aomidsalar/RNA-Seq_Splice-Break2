@@ -1,5 +1,4 @@
 input <- read.csv("path/to/sample_LargeMTDeletions_LR-PCR_STRINGENT_pos357-15925.txt", sep="\t")
-#input <- input[, colSums(is.na(input)) != nrow(input)]
 Sample <- input$Sample_ID[1]
 BC <- input$Benchmark_Coverage[1]
 no_deletions <- as.numeric(nrow(input))
