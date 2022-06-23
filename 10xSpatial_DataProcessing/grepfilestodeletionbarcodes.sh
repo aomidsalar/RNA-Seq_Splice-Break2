@@ -45,3 +45,4 @@ for k in $(ls -1 *_R1matchesunique_barcodes.txt | sed -e 's/\.6335_R1matchesuniq
 do
 cat $k\.6335_R1matchesunique_barcodes.txt $k\.8471_R1matchesunique_barcodes.txt > $k\.deletionbarcodes.txt
 done
+rm *grep*headers.txt *R1matches*txt
