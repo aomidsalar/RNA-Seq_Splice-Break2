@@ -43,6 +43,6 @@ done
 #concatenate 6335 and 8471 deletion barcode files per sample
 for k in $(ls -1 *_R1matchesunique_barcodes.txt | sed -e 's/\.6335_R1matchesunique_barcodes.txt//' -e 's/\.8471_R1matchesunique_barcodes.txt//')
 do
-cat $k\.6335_R1matchesunique_barcodes.txt $k\.8471_R1matchesunique_barcodes.txt > $k\.deletionbarcodes.txt
+cat $k\.6335_R1matchesunique_barcodes.txt $k\.8471_R1matchesunique_barcodes.txt > $k\.deletionbarcodes.csv
 done
 rm *grep*headers.txt *R1matches*txt
