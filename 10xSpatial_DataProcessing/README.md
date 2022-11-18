@@ -5,9 +5,13 @@ This script splits a pooled bam file to create cluster-specific bam files given 
 split_bam.py [-h] [--bam BAM] [--out-root OUT_ROOT] [--csv CSV]
  
 optional arguments:
+
   -h, --help           show this help message and exit
+  
   --bam BAM            Input BAM file
+  
   --out-root OUT_ROOT  Root directory to write output BAMs to
+  
   --csv CSV            CSV file with two columns: barcode and cluster.
 
 ### Find Deletion Barcodes
