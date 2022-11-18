@@ -6,7 +6,7 @@ split_bam.py [-h] [--bam BAM] [--out-root OUT_ROOT] [--csv CSV]
  
 optional arguments:
 
-  -h, --help  show this help message and exit  
+  -h, --help &emsp; show this help message and exit  
   --bam BAM  Input BAM file  
   --out-root OUT_ROOT  Root directory to write output BAMs to  
   --csv CSV  CSV file with two columns: barcode and cluster 
