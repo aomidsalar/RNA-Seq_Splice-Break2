@@ -16,4 +16,4 @@ sed -i 's/.2 /.1 /g' $i.R2.fastq
 rm $i\_2.fastq
 done
 # Begin Splice-Break single end script, with the option to skip pre Alignment
-nohup /path/to/SpliceBreak/pairend-Final.sh . output/ logs/ --align=yes --ref=rCRS --fastq_keep=no --skip_preAlign=yes > nohup.out &
+nohup /path/to/SpliceBreak/pairend-Final.sh . output/ logs/ /path/to/SpliceBreak/ --align=yes --ref=rCRS --fastq_keep=no --skip_preAlign=yes > nohup.out &
