@@ -12,6 +12,7 @@ done
 for i in $(ls -1 *_2.fastq | sed 's/\_2.fastq//')
 do
 awk -v "n=$n" 'NR % 4 == 1 {$0 = $0 "/2"} {print}' $i\_2.fastq > $i.R2.fastq
+sed -i 's/.2 /.1 /g' $i.R2.fastq
 rm $i\_2.fastq
 done
 # Begin Splice-Break single end script, with the option to skip pre Alignment
