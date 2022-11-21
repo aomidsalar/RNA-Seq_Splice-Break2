@@ -10,4 +10,4 @@ awk -v "n=$n" 'NR % 4 == 1 {$0 = $0 "/1"} {print}' $i\_1.fastq > $i.R1.fastq
 rm $i\_1.fastq
 done
 # Begin Splice-Break single end script, with the option to skip pre Alignment
-nohup /path/to/SpliceBreak/singlend-Final.sh . output/ logs/ --align=yes --ref=rCRS --fastq_keep=no --skip_preAlign=yes > nohup.out &
+nohup /path/to/SpliceBreak/singlend-Final.sh . output/ logs/ /path/to/SpliceBreak/ --align=yes --ref=rCRS --fastq_keep=no --skip_preAlign=yes > nohup.out &
