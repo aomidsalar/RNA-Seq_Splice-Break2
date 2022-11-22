@@ -15,9 +15,13 @@ This directory contains an R script can be used to calculate cumulative metrics 
 
 ### Parsing_for_Deletions
 This directory contains two scripts that can be used to search for and isolate reads that contain the 8471-13449 mtDNA "Common Deletion" and the 6335-13999 mtDNA deletion, respectively.
-
-## Installation & Dependencies
-This code is compatible with Python3 and base R.
+  
+### 10xSpatial_DataProcessing
+This directory contains two scripts: one that can be used to split 10x Genomics bam files into cluster-specific bam files and another to extract barcodes from reads containing a 6335-13999 or 8471-13449 deletion.
+  
+### Spatial_Processing_Seurat
+This directory contains the R scripts used for Seurat clustering and tissue image annotation.
+  
 ## Contact
 Questions can be reported under the *Issues* tab in this repository.
 
