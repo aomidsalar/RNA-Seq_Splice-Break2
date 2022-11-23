@@ -26,4 +26,3 @@ This directory contains the R scripts used for Seurat clustering and tissue imag
 Questions can be reported under the *Issues* tab in this repository.
 
 ## Acknowledgements
-## License
