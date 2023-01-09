@@ -48,7 +48,7 @@ geom_spatial <-  function(mapping = NULL,
     params = list(na.rm = na.rm, ...)
   )
 }
-sample_names <- c("144105") #Sample Name
+sample_names <- c("151673") #Sample Name
 sample_names
 image_paths <- c("~/path/to/151673_tissue_hires_image.png")
 
