@@ -11,5 +11,6 @@ The two scripts (`ProcessPE_SRR_for_SB.sh` and `ProcessSE_SRR_for_SB.sh`) can be
 3. The modified, updated fastq files are saved with endings ".R1.fastq" and ".R2.fastq", which Splice-Break will recognize. The original fastq files downloaded from GEO are deleted.
 4. The appropriate version of Splice-Break (single end of paired end) is run using the option to skip pre Alignment.
 
+## Usage
 * **This script must be executed in the directory containing the GEO-downloaded fastq files, ending in "_1.fastq" and/or "_2.fastq".**
 * **The path to Splice-Break must be updated prior to executing the script.**
