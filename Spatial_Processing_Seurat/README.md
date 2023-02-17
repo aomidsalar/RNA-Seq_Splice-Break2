@@ -29,7 +29,8 @@ This script, taken from the 10x Genomics website, can be used to annotate tissue
 ### Usage
 Download the file `Cluster_Annotated_Tissue_Images.R` and open with RStudio. RStudio version 4.1.3 was used in generating this script. 
 **Input Files:**
-*Paths to these files should be updated accordingly prior to running the script. All files used for this script except for the **cluster_paths** were output as part of the 10x Genomics spatial transcriptomics pipeline (those for samples used in our analysis can be found in our GEO repository)*
+
+*Note: Paths to these files should be updated accordingly prior to running the script. All files used for this script except for the **cluster_paths** were output as part of the 10x Genomics spatial transcriptomics pipeline (those for samples used in our analysis can be found in our GEO repository)*
 * image_paths: `tissue_hires_image.png`. 
 * scalefactor_paths: `scalefactors_json.json`. 
 * tissue_paths: `tissue_positions_list.txt`. 
