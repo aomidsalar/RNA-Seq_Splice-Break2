@@ -1,7 +1,8 @@
 # Common Mitochondrial Deletions in RNA-Seq: Evaluation of Bulk, Single-Cell and Spatial Transcriptomic Datasets
 
 This repository contains code accompanying the following paper:
-<citation here>
+Omidsalar et al. "Common Mitochondrial Deletions in RNA-Seq: Evaluation of Bulk, Single-Cell, and Spatial Transcriptomic Datasets" [Link TBA]
+
 
 ## Introduction
 In the paper, *Common Mitochondrial Deletions in RNA-Seq: Evaluation of Bulk, Single-Cell and Spatial Transcriptomic Datasets*, we evaluated a variety of RNA-Seq datasets for common mitochondrial DNA (mtDNA) deletions using the bioinformatics tool [Splice-Break2](https://github.com/brookehjelm/Splice-Break2). The scripts within this repository were used for processing our data in conjunction with Splice-Break.
