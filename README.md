@@ -23,4 +23,5 @@ This directory contains the R scripts used for Seurat clustering and tissue imag
   
 ## Contact
 
-## Acknowledgements
+Audrey Omidsalar aomidsal@usc.edu
+Brooke Hjelm bhjelm@usc.edu
