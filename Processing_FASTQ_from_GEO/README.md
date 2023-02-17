@@ -13,4 +13,4 @@ The two scripts (`ProcessPE_SRR_for_SB.sh` and `ProcessSE_SRR_for_SB.sh`) can be
 
 ## Usage
 * **This script must be executed in the directory containing the GEO-downloaded fastq files, ending in "_1.fastq" and/or "_2.fastq".**
-* **The path to Splice-Break must be updated prior to executing the script.**
+* **The path to Splice-Break2 script and path to Splice-Break2 directory must be updated (last line) prior to executing the script.**
