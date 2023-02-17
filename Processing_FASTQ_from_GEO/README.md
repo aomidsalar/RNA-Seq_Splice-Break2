@@ -1,5 +1,5 @@
 # GEO FASTQ file Processing
-The two scripts (`ProcessPE_SRR_for_SB.sh` and `ProcessSE_SRR_for_SB.sh`) can be used to format fastq files downloaded from GEO using fastq-dump with default settings into one that is appropriate for Splice-Break, and will run Splice-Break using the option to skip pre Alignment. The main steps of these scripts are as follows:
+The two scripts (`ProcessPE_SRR_for_SB.sh` and `ProcessSE_SRR_for_SB.sh`) can be used to format fastq files downloaded from GEO using the command [fastq-dump from the SRA toolkit](https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit) with default settings into one that is appropriate for Splice-Break, and will run Splice-Break using the option to skip pre Alignment. The main steps of these scripts are as follows:
 1. `output` and `logs` directories are made, both of which are where Splice-Break data is deposited
 2. The sequence identifier lines in the fastq files are modified.
     
