@@ -1,7 +1,8 @@
 # Common Mitochondrial Deletions in RNA-Seq: Evaluation of Bulk, Single-Cell and Spatial Transcriptomic Datasets
 
 This repository contains code accompanying the following paper:
-Omidsalar et al. "Common Mitochondrial Deletions in RNA-Seq: Evaluation of Bulk, Single-Cell, and Spatial Transcriptomic Datasets" [Link TBA]
+
+Omidsalar *et al.* "Common Mitochondrial Deletions in RNA-Seq: Evaluation of Bulk, Single-Cell, and Spatial Transcriptomic Datasets" [Link TBA]
 
 
 ## Introduction
