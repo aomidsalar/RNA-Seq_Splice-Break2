@@ -1,6 +1,6 @@
 # 10x Genomics Spatial Transcriptomics Data Processing
 ## Split bam per cluster
-This script splits a pooled bam file to create cluster-specific bam files given a list of barcodes and their associated cluster. 
+This script splits a pooled bam file to create cluster-specific bam files given a list of barcodes and their associated cluster. This code is from an early script provided by 10x Genomics; currently, their program [`subset-bam`](https://github.com/10XGenomics/subset-bam) is available and can be used for this purpose.
 
 ### Usage
 The input files required for this are (1) BAM file for each sample, from 10x Genomics spatial transcriptomics pipeline; and (2) CSV file with two columns ("Barcode" and "Cluster") which contains the barcode sequences and corresponding cluster designations for each sample which was generated from Seurat Clustering.
