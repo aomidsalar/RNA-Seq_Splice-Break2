@@ -26,5 +26,7 @@ DimPlot(object = vBsamples.integrated, reduction = "tsne", split.by = "orig.iden
 DimPlot(object = vBsamples.integrated, reduction = "tsne", split.by = "orig.ident", group.by="seurat_clusters")
 vBsamples.integrated <- RunUMAP(vBsamples.integrated, dims = 1:10)
 vBsamples.integrated <- FindNeighbors(vBsamples.integrated)
-vBsamples.integrated <- FindClusters(vBsamples.integrated, resolution = 0.5) # add ,res=some number if you want to adjust resolution. https://satijalab.org/seurat/reference/findclusters 
+vBsamples.integrated <- FindClusters(vBsamples.integrated, resolution = 0.35) # add ,res=some number if you want to adjust resolution. https://satijalab.org/seurat/reference/findclusters 
 write.csv(vBsamples.integrated@meta.data,file = "~/Desktop/integratedSamples",row.names=TRUE) # this file will contain barcodes, and will have a column for seurat_clusters
+#vBsamples.integrated_subcluster3 <- FindSubCluster(vBsamples.integrated, cluster = "3",graph.name = "integrated_nn",subcluster.name = "sub.cluster",resolution = 0.15,algorithm = 1) #Uncomment to perform sub-clustering of cluster 3
+#write.csv(vBsamples.integrated_subcluster3@meta.data,file = "~/Desktop/integratedSamples_withSubcluster3.txt",row.names=TRUE) #Uncomment this line to save Seurat object metadata after sub-clustering of cluster 3
